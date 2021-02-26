@@ -12,12 +12,12 @@ function App() {
   useEffect(()=>{
     if(moreMesa){
       setAlltext(`Prezado(a),
-      Identificamos que você foi proponente de atividade(s), no Congresso UFBA 2020, contudo houveram algumas pendências que impossibilitaram a submissão. No momento da submissão do formulário não houve o preenchimento completo dos dados, logo, com o envio dos mesmos poderemos liberar a certificação. Solicitamos os seguintes dados
+      Identificamos que você foi proponente de atividade(s), no Congresso UFBA 2020, contudo houve algumas pendências que impossibilitaram a submissão. No momento da submissão do formulário não houve o preenchimento completo dos dados, logo, com o envio dos mesmos poderemos liberar a certificação. Solicitamos os seguintes dados
       CPF e e-mail dos autores: ${aut}, da mesa : ${mesa}
       Também os autores  ${autsec}, da mesa ${secmesa}`)
     }else{
       setAlltext(`Prezado(a),
-      Identificamos que você foi proponente de atividade(s), no Congresso UFBA 2020, contudo houveram algumas pendências que impossibilitaram a submissão. No momento da submissão do formulário não houve o preenchimento completo dos dados, logo, com o envio dos mesmos poderemos liberar a certificação. Solicitamos os seguintes dados
+      Identificamos que você foi proponente de atividade(s), no Congresso UFBA 2020, contudo houve algumas pendências que impossibilitaram a submissão. No momento da submissão do formulário não houve o preenchimento completo dos dados, logo, com o envio dos mesmos poderemos liberar a certificação. Solicitamos os seguintes dados
       CPF e e-mail dos autores: ${aut}, da mesa : ${mesa}
       `)
     }
