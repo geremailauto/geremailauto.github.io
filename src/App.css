@@ -19,3 +19,14 @@
   width: 80%;
   
 }
+.copyme{
+  width: 100px;
+  height: 45px;
+  background-color: cornflowerblue;
+  color: white;
+  transition:  transform .2s;
+  cursor: pointer;
+}
+.copyme:hover{
+  transform: scale(1.04)
+}
