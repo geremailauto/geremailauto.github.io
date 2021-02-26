@@ -16,7 +16,7 @@ function App() {
         <p>Autores:</p>
         <input placeholder="Autores" value={aut} onChange={(e) => setAut(e.target.value)} />
         {moreMesa ? (
-          <div className="input-box">
+          <div className="input-box inputt">
             <button style={{"color":"#FFF", "background":"tomato"}} onClick={()=>setMore(false)}>Remover Mesa</button>
             <p>Segunda Mesa:</p>
             <input placeholder="Mesa" value={secmesa} onChange={(e) => setSec(e.target.value)} />
